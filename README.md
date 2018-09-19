@@ -2,7 +2,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
 ![boomerang - version](https://img.shields.io/badge/Boomerang-any-blue.svg)
 
-Convert export JSON file from [Boomerang - SOAP & REST Client](https://chrome.google.com/webstore/detail/boomerang-soap-rest-clien/eipdnjedkpcnlmmdfdkgfpljanehloah) to [Insomnia](https://insomnia.rest/)
+Convert JSON export file from [Boomerang - SOAP & REST Client](https://chrome.google.com/webstore/detail/boomerang-soap-rest-clien/eipdnjedkpcnlmmdfdkgfpljanehloah) to [Insomnia](https://insomnia.rest/)
 
 ## Installation
 ### Some optional code changes
