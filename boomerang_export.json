@@ -1,0 +1,132 @@
+{
+  "_appName": "Boomerang",
+  "_appVersion": "3.4.1",
+  "_timestamp": 1512653165969,
+  "projectName": "",
+  "projects": [
+    {
+      "name": "Project name",
+      "last_accessed": 1502786089553,
+      "id": 9,
+      "_services": [
+        {
+          "projectId": 9,
+          "environmentId": 7,
+          "isRest": true,
+          "name": "Parent folder 1",
+          "namespaces": null,
+          "endpoints": [],
+          "auth": null,
+          "soap": null,
+          "id": 23,
+          "_operations": [
+            {
+              "serviceId": 23,
+              "name": "Parent child folder",
+              "position": 0,
+              "id": 128,
+              "_requests": [
+                {
+                  "operationId": 128,
+                  "name": "Request name 1",
+                  "endpoint": "endpointurl",
+                  "method": "POST",
+                  "payload": {
+                    "mode": "text",
+                    "raw": "Some data"
+                  },
+                  "headers": [
+                    {
+                      "name": "Content-Type",
+                      "value": "text/plain; charset=utf-8"
+                    }
+                  ],
+                  "auth": {},
+                  "response": {
+                    "status": {}
+                  },
+                  "position": 8,
+                  "_state": null,
+                  "activeTabOnRequest": "#tab-PayloadSection",
+                  "id": 620
+                },
+                {
+                  "operationId": 128,
+                  "name": "Request name 2",
+                  "endpoint": "endpointurl",
+                  "method": "POST",
+                  "payload": {
+                    "mode": "text",
+                    "raw": "Some data"
+                  },
+                  "headers": [
+                    {
+                      "name": "Content-Type",
+                      "value": "text/plain; charset=utf-8"
+                    }
+                  ],
+                  "auth": {},
+                  "response": {
+                    "status": {}
+                  },
+                  "position": 10,
+                  "_state": null,
+                  "activeTabOnRequest": "#tab-PayloadSection",
+                  "id": 641
+                }
+              ]
+            },
+            {
+              "serviceId": 23,
+              "name": "Parent folder 2",
+              "position": 1,
+              "id": 129,
+              "_requests": [
+                {
+                  "operationId": 129,
+                  "name": "Request url 3",
+                  "endpoint": "endpointurl",
+                  "method": "POST",
+                  "payload": {
+                    "mode": "text",
+                    "raw": "Some data"
+                  },
+                  "headers": [
+                    {
+                      "name": "Content-Type",
+                      "value": "text/plain; charset=utf-8"
+                    }
+                  ],
+                  "auth": {},
+                  "response": {
+                    "status": {}
+                  },
+                  "position": 0,
+                  "_state": null,
+                  "activeTabOnRequest": "#tab-PayloadSection",
+                  "id": 435
+                }
+             
+              ]
+            },
+            {
+              "serviceId": 23,
+              "name": "__SYSTEM__",
+              "position": 13,
+              "id": 141,
+              "_requests": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "name": "dev",
+      "vars": "{}",
+      "projectId": 9,
+      "id": 7
+    }
+  ]
+}
